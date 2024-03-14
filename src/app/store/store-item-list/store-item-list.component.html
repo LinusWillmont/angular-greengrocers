@@ -1,0 +1,6 @@
+<ul class="item-list store--item-list">
+  <app-store-item
+    *ngFor="let item of storeItems | async"
+    [item]="item"
+  ></app-store-item>
+</ul>
